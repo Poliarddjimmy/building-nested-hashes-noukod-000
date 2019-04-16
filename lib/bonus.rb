@@ -21,16 +21,9 @@ def bonus
   }
 
   #code your solution here:
+  epic_tragedy[":capulet"][:heroine][:status]="dead"
+  epic_tragedy[":montague"][:hero][:status]="dead"
   
-  epic_tragedy.each do |key, value|
-    key.each do |key2, value2|
-      key2.each do |key3, value3|
-      if key3 == status
-        value3 = "dead"
-      end
-    end
-    end
-  end
 
   
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
